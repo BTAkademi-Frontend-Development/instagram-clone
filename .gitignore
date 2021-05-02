@@ -102,3 +102,12 @@ dist
 
 # TernJS port file
 .tern-port
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+instagram/package-lock.json
+instagram/yarn.lock
