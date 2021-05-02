@@ -1,7 +1,7 @@
-/* eslint-disable no-plusplus */
+/* eslint-disable */
 // NOTE: replace 'NvPY9M9MzFTARQ6M816YAzDJxZ72' with your Firebase auth user id (can be taken from Firebase)
 export function seedDatabase(firebase) {
-  const firebaseUserId = 'NvPY9M9MzFTARQ6M816YAzDJxZ72';
+  const firebaseUserId = 'MlJuodUAR7XPlWTQyQYbMR959lR2';
   const users = [
     {
       userId: firebaseUserId,
