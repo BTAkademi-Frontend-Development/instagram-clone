@@ -1,4 +1,7 @@
 import { React, useEffect } from 'react';
+import Header from '../components/Header';
+import Timeline from '../components/Timeline';
+import Sidebar from '../components/Sidebar';
 
 export default function Dashboard() {
   useEffect(() => {
@@ -7,8 +10,10 @@ export default function Dashboard() {
 
   return (
     <div className="bg-gray-background">
-      <div className="mx-auth max-w-screen-lg">
-        <p className="text-center text-2xl">Dashboard!</p>
+      <Header />
+      <div className="grid">
+        <Timeline />
+        <Sidebar />
       </div>
     </div>
   );
