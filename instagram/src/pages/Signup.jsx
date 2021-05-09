@@ -22,7 +22,6 @@ export default function SignUp() {
     event.preventDefault();
 
     const usernameExists = await doesUsernameExist(userName);
-    console.log(usernameExists);
 
     if(!usernameExists.length){
         try {
@@ -47,7 +46,7 @@ export default function SignUp() {
   };
 
   useEffect(() => {
-    document.title = 'Sign Up - Instagram';
+    document.title = 'Signup - BTAkademi Instagram Clone';
   });
 
   return (
